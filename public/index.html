@@ -8,13 +8,16 @@
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.13.1/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.13.1/firebase-firestore.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+    <!-- update the version number as needed
+        <!-- <!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- <script src="/__/firebase/7.14.4/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<!-- <script src="/__/firebase/7.14.4/firebase-analytics.js"></script> -->
+
+<!-- Initialize Firebase -->
+<!-- <script src="/__/firebase/init.js"></script> -->
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -74,6 +77,30 @@
     </div>
     <div class="mdc-dialog__scrim"></div>
 </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-firestore.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBIK0b1Kq2dGnpRFOqa6zxu8HYHRdkZ3Ao",
+    authDomain: "fir-rtc-cd6ba.firebaseapp.com",
+    databaseURL: "https://fir-rtc-cd6ba.firebaseio.com",
+    projectId: "fir-rtc-cd6ba",
+    storageBucket: "fir-rtc-cd6ba.appspot.com",
+    messagingSenderId: "1054010110158",
+    appId: "1:1054010110158:web:837b780c4de0ff1b82209f",
+    measurementId: "G-DECH25PDNE"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+//   firebase.analytics();0
+</script>
 <script src="app.js"></script>
 </body>
 </html>
